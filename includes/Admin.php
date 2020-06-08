@@ -226,7 +226,7 @@ class Admin {
 	public function add_action_links( $links ) {
 		return array_merge(
 			array(
-				'settings' => '<a href="' . admin_url( 'admin.php?page=' . $this->plugin_slug ) . '">' . __( 'Settings', $this->plugin_slug ) . '</a>',
+				'settings' => '<a href="' . admin_url( 'edit.php?post_type=funnels') . '">' . __( 'Settings', $this->plugin_slug ) . '</a>',
 			),
 			$links
 		);
