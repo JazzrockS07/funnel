@@ -1,0 +1,203 @@
+.notice {
+    position: relative;
+  }
+  
+.notice_dismiss .dashicons {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+}
+
+.clearfix:before, .clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+
+.form-select {
+    width:150px;
+    margin:0 20px 0;
+}
+
+.funnel-fields {
+    font-weight:700;
+    padding:5px 10px 5px;
+}
+
+.funnel-description {
+    padding:5px 10px 5px;
+}
+
+.funnel-forms {
+    padding:0 10px;
+    color:#0073aa;
+}
+
+.funnel-links {
+    padding:0 10px;
+}
+
+.funnel-links a {
+    text-decoration:none;
+}
+
+.funnel-page, .edit-page {
+    font-weight:700;
+    font-size:18px;
+    float:left;
+}
+
+.funnel-header, .edit-header {
+    padding:10px;
+    border-bottom:1px solid #d3d3d3;
+}
+
+.funnel-footer {
+    margin-top:15px;
+    padding:15px 10px 15px;
+    border-top:1px solid #d3d3d3;
+}
+
+.edit-footer {
+    margin-top:15px;
+    padding:15px 10px 15px;
+    border-top:1px solid #d3d3d3;
+    background-color:#f1f1f1;
+}
+
+.funnel-block {
+    margin: 15px 20px 15px;
+    background:#f1f1f1;
+    width:400px;
+    border:1px solid #d3d3d3;
+}
+
+.funnel-edit, .edit-cancel {
+    color:#0000ff;
+    font-weight:600;
+    font-size:12px;
+    float:right;
+    margin-right:15px;
+    margin-top:4px;
+    cursor:pointer;
+}
+
+.funnel-delete {
+    color:#ff0000;
+    font-weight:600;
+    font-size:12px;
+    float:right;
+    margin-top:4px;
+    cursor:pointer;
+}
+
+.footer-icon-edit{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    cursor:pointer;
+}
+
+.footer-icon-link {
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footer-visitors {
+    float:right;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footer-views {
+    float:right;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footer-refferals {
+    float:right;
+    padding-left:10px;
+    color:#0000ff;
+    font-size:12px;
+    font-weight:500;
+}
+
+.dashicons-size {
+    font-size:15px;
+    margin-right:3px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #ffffff;
+    color: #0000ff;
+    font-weight:400;
+    font-size:11px;
+    text-align: left;
+    padding:5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    margin-left: -150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border:1px solid #0073A9;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.edit-block {
+    margin: 15px 20px 15px;
+    background:#ffffff;
+    width:400px;
+    border:1px solid #d3d3d3;
+}
+
+.edit-form-title, .edit-form-forms, .edit-form-links, .edit-form-description {
+    padding:5px 10px 5px;
+}
+
+.edit-form-title-label {
+    width: 80px;
+    display:inline-block;
+}
+
+.edit-form-description-label {
+    width: 80px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.edit-form-forms-label, .edit-form-links-label {
+    width:80px;
+    float:left;
+}
+
+.edit-form-forms-block, .edit-form-links-block {
+    width:200px;
+    float:left;
+}
+
+.edit-form-forms-input, .edit-form-links-input {
+    margin-bottom:5px;
+}
+
+.edit-form-button {
+    padding:5px 10px 5px;
+}
