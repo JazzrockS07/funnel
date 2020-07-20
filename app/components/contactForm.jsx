@@ -82,7 +82,7 @@ export default class ContactForm extends React.Component {
         </label>
 
         <button
-          className="button button-primary"
+          className="button button-secondary"
           onClick={this.handleSubmit}
         >Submit</button>
 
@@ -102,3 +102,4 @@ export default class ContactForm extends React.Component {
 ContactForm.propTypes = {
   wpObject: PropTypes.object
 };
+
