@@ -82,7 +82,7 @@ export default class ContactForm extends React.Component {
         </label>
 
         <button
-          className="button button-secondary"
+          className="button button-primary"
           onClick={this.handleSubmit}
         >Submit</button>
 
